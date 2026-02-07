@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ternary-tiling-block-size@esm/index.mjs';
+import ternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ternary-tiling-block-size@v0.1.1-esm/index.mjs';
 ```
 
 #### ternaryBlockSize( dtypeX, dtypeY, dtypeZ, dtypeW )
@@ -104,7 +104,7 @@ The function supports the following arguments:
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@esm/index.mjs';
 import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@esm/index.mjs';
-import ternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ternary-tiling-block-size@esm/index.mjs';
+import ternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ternary-tiling-block-size@v0.1.1-esm/index.mjs';
 
 // Generate a list of input ndarray dtype triplets:
 var dt = cartesianPower( dtypes(), 3 );
